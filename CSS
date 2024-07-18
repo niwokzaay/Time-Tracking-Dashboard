@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+}
+
+body, html {
+    background-color: rgb(154, 205, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    background-color: black;
+    font-size: 20px;
+}
+
+#leftS {
+    width: 230px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #310c7a73;
+    position: fixed;
+    left: 90px;
+    top: 170px;
+}
+
+#Intro {
+    width: 230px;
+    height: 70%;
+    background-color: #24006cee;
+    border-radius: 20px;
+}
+
+#image {
+    width: 80px;
+    height: 80px;
+    background-image: url(image.png);
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+#by{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 17px;
+}
+
+#name {
+    width: 50px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 32px;
+}
+
+
+#daily {
+    font-size: smaller;
+    position: absolute;
+    top: 74%;
+    left: 10%;
+    color: #545454;
+}
+
+#daily:hover {
+    transition: all 1s ease-in-out;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+
+#weekly {
+    font-size: smaller;
+    position: absolute;
+    top: 81%;
+    left: 10%;
+    color: #545454;
+}
+
+#weekly:hover {
+    transition: all 1s ease-in-out;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+#monthly {
+    font-size: smaller;
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    color: #545454;
+}
+
+#monthly:hover {
+    transition: all 1s ease-in-out;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+
+#rightS {
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: black;
+    position: fixed;
+    left: 340px;
+    top: 170px;
+}
+
+
+#RleftS {
+    width: 240px;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+
+#RLT {
+    width: 240px;
+    height: 47%;
+    border-radius: 20px;
+    background-color: #c66906cc;
+    position: absolute;
+    overflow: hidden;
+}
+
+#imRLT {
+    width: 50px;
+    height: 45px;
+    background-image: url(icon-work.svg);
+    background-size: 100%;
+    position: absolute;
+    top: -45px;
+    left: 70%;
+}
+
+#smContentRLT {
+    width: 240px;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #24006cee;
+    position: relative;
+    top: 20%;
+    color: white;
+}
+
+#RLTheader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#RLTicon {
+    width: 20px;
+    height: 5px;
+    background-image: url(icon-ellipsis.svg);
+    position: absolute;
+    top: 13%;
+    left: 75%;
+
+}
+
+#RLTtime {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#RLTlast {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#RLB {
+    width: 240px;
+    height: 47%;
+    border-radius: 20px;
+    background-color: rgba(4, 211, 25, 0.726);
+    position: absolute;
+    top: 53%;
+    overflow: hidden;
+}
+
+#imRLB {
+    width: 50px;
+    height: 30px;
+    background-image: url(icon-exercise.svg);
+    background-size: 100%;
+    position: absolute;
+    top: -35px;
+    left: 70%;
+}
+
+#smContentRLB {
+    width: 240px;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #24006cee;
+    position: relative;
+    top: 20%;
+}
+
+
+#RLBheader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#RLBicon {
+    width: 20px;
+    height: 5px;
+    background-image: url(icon-ellipsis.svg);
+    position: absolute;
+    top: 13%;
+    left: 75%;
+
+}
+
+#RLBtime {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#RLBlast {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+
+
+#RmiddleS {
+    width: 240px;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+}
+
+
+#RMT {
+    width: 240px;
+    height: 47%;
+    border-radius: 20px;
+    background-color: aqua;
+    position: absolute;
+    overflow: hidden;
+}
+
+#imRMT {
+    width: 50px;
+    height: 40px;
+    background-image: url(icon-play.svg);
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    left: 70%;
+}
+
+#smContentRMT {
+    width: 240px;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #24006cc8;
+    position: relative;
+    top: 20%;
+}
+
+#RMTheader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#RMTicon {
+    width: 20px;
+    height: 5px;
+    background-image: url(icon-ellipsis.svg);
+    position: absolute;
+    top: 13%;
+    left: 75%;
+
+}
+
+#RMTtime {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#RMTlast {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#RMB {
+    width: 240px;
+    height: 47%;
+    border-radius: 20px;
+    background-color: rgba(70, 33, 87, 0.701);
+    position: absolute;
+    top: 53%;
+    overflow: hidden;
+}
+
+#imRMB {
+    width: 50px;
+    height: 43px;
+    background-image: url(icon-social.svg);
+    background-size: 100%;
+    position: absolute;
+    top: -45px;
+    left: 70%;
+}
+
+#smContentRMB {
+    width: 240px;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #24006cee;
+    position: relative;
+    top: 20%;
+}
+
+#RMBheader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#RMBicon {
+    width: 20px;
+    height: 5px;
+    background-image: url(icon-ellipsis.svg);
+    position: absolute;
+    top: 13%;
+    left: 75%;
+
+}
+
+#RMBtime {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#RMBlast {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#RrightS {
+    width: 240px;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    left: 560px;
+}
+
+
+#RRT {
+    width: 240px;
+    height: 47%;
+    border-radius: 20px;
+    background-color: rgba(249, 80, 108, 0.612);
+    position: absolute;
+    overflow: hidden;
+}
+
+#imRRT {
+    width: 47px;
+    height: 40px;
+    background-image: url(icon-study.svg);
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    left: 70%;
+}
+
+#smContentRRT {
+    width: 240px;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #24006cee;
+    position: relative;
+    top: 20%;
+}
+
+
+#RRTheader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#RRTicon {
+    width: 20px;
+    height: 5px;
+    background-image: url(icon-ellipsis.svg);
+    position: absolute;
+    top: 13%;
+    left: 75%;
+
+}
+
+#RRTtime {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#RRTlast {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+
+#RRB {
+    width: 240px;
+    height: 47%;
+    border-radius: 20px;
+    background-color: rgba(231, 231, 38, 0.868);
+    position: absolute;
+    top: 53%;
+    overflow: hidden;
+}
+
+#imRRB {
+    width: 45px;
+    height: 40px;
+    background-image: url(icon-self-care.svg);
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    left: 75%;
+}
+
+#smContentRRB {
+    width: 240px;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #24006cee;
+    position: relative;
+    top: 20%;
+}
+
+
+#RRBheader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#RRBicon {
+    width: 20px;
+    height: 5px;
+    background-image: url(icon-ellipsis.svg);
+    position: absolute;
+    top: 13%;
+    left: 75%;
+
+}
+
+#RRBtime {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#RRBlast {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+
+p {
+    color: white;
+    z-index: 7;
+    font-size: 17px;
+}
+
+
+#RLTtime, #RLBtime, #RMTtime, #RMBtime, #RRTtime, #RRBtime {
+    font-size: 40px;
+}

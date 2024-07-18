@@ -1,0 +1,127 @@
+let daily = document.getElementById("daily");
+let weekly = document.getElementById("weekly");
+let monthly = document.getElementById("monthly");
+
+
+
+
+let RLTT = document.getElementById("RLTtime");
+let RLTL = document.getElementById("RLTlast");
+
+daily.addEventListener("click", () => {
+    RLTT.textContent = "8hrs";
+    RLTL.textContent = "Yesterday - 9hrs";
+});
+
+weekly.addEventListener("click", () => {
+    RLTT.textContent = "32hrs";
+    RLTL.textContent = "Last Week - 36hrs";
+});
+
+monthly.addEventListener("click", () => {
+    RLTT.textContent = "162hrs";
+    RLTL.textContent = "Last Month - 159hrs";
+});
+
+
+let RLBT = document.getElementById("RLBtime");
+let RLBL = document.getElementById("RLBlast");
+
+daily.addEventListener("click", () => {
+    RLBT.textContent = "45min";
+    RLBL.textContent = "Yesterday - 2hrs";
+});
+
+weekly.addEventListener("click", () => {
+    RLBT.textContent = "4hrs";
+    RLBL.textContent = "Last Week - 5hrs";
+});
+
+monthly.addEventListener("click", () => {
+    RLBT.textContent = "21hrs";
+    RLBL.textContent = "Last Month - 19hrs";
+});
+
+
+
+
+
+
+let RMTT = document.getElementById("RMTtime");
+let RMTL = document.getElementById("RMTlast");
+
+daily.addEventListener("click", () => {
+    RMTT.textContent = "2hrs";
+    RMTL.textContent = "Yesterday - 3hrs";
+});
+
+weekly.addEventListener("click", () => {
+    RMTT.textContent = "10hrs";
+    RMTL.textContent = "Last Week - 9hrs";
+});
+
+monthly.addEventListener("click", () => {
+    RMTT.textContent = "29hrs";
+    RMTL.textContent = "Last Month - 35hrs";
+});
+
+
+let RMBT = document.getElementById("RMBtime");
+let RMBL = document.getElementById("RMBlast");
+
+daily.addEventListener("click", () => {
+    RMBT.textContent = "1hrs";
+    RMBL.textContent = "Yesterday - 2hrs";
+});
+
+weekly.addEventListener("click", () => {
+    RMBT.textContent = "5hrs";
+    RMBL.textContent = "Last Week - 10hrs";
+});
+
+monthly.addEventListener("click", () => {
+    RMBT.textContent = "12hrs";
+    RMBL.textContent = "Last Month - 17hrs";
+});
+
+
+
+
+
+
+
+let RRTT = document.getElementById("RRTtime");
+let RRTL = document.getElementById("RRTlast");
+
+daily.addEventListener("click", () => {
+    RRTT.textContent = "2hrs";
+    RRTL.textContent = "Yesterday - 3hrs";
+});
+
+weekly.addEventListener("click", () => {
+    RRTT.textContent = "6hrs";
+    RRTL.textContent = "Last Week - 7hrs";
+});
+
+monthly.addEventListener("click", () => {
+    RRTT.textContent = "42hrs";
+    RRTL.textContent = "Last Month - 39hrs";
+});
+
+let RRBT = document.getElementById("RRBtime");
+let RRBL = document.getElementById("RRBlast");
+
+daily.addEventListener("click", () => {
+    RRBT.textContent = "45min";
+    RRBL.textContent = "Yesterday - 30min";
+});
+
+weekly.addEventListener("click", () => {
+    RRBT.textContent = "2hrs";
+    RRBL.textContent = "Last Week - 2hrs";
+});
+
+monthly.addEventListener("click", () => {
+    RRBT.textContent = "11hrs";
+    RRBL.textContent = "Last Month - 6hrs";
+});
